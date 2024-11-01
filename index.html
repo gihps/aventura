@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/labirinto.avif" alt="">
+            <p>Um dia, acordei em uma clareira desconhecida, vazia, fechada por quatro paredes. O único caminho aberto levava a um labirinto. Decidi entrar e achar uma saída!</p>
+            <button class="btn-proximo" data-proximo="1">Caminho 1</button>
+            <button class="btn-proximo" data-proximo="2">Caminho 2</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada no labirinto, procurando sua liberdade.</p>
+            <button class="btn-proximo" data-proximo="3">Continuar na busca por uma saída</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para a clareira</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No caminho 2, você se depara com um monstro, que quer atrapalhar sua jornada. Você consegue vencê-lo. Mas, percebe que, seu corpo é mecânico, e nele, você encontra um cilindro, que indica uma direção diferente da qual você seguia.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir o caminho indicado</button>
+            <button class="btn-proximo" data-proximo="6">Seguir seu próprio caminho</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No caminho, você encontra um cilíndro, ficou confuso, mas decidiu guardar. Mais a frente, você enxerga uma pequena luz, piscando.
+            </p>
+            <button class="btn-proximo" data-proximo="7">Seguir em direção a luz</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/clareira.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que entrar no labirinto sozinho é perigoso demais, e volta para a clareira, escolhendo criar uma vida lá. Mas, fica pensando constantemente que talvez tivesse conseguido escapar.
+                </p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Ao seguir o caminho indicado, você se vê em um grande corredor escuro, com uma pequena luz piscando ao fundo.
+                </p>
+            <button class="btn-proximo" data-proximo="7">Seguir a luz</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando seu próprio caminho, você encontra um corredor, mas ele leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e seguir o caminho indicado</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No final do corredor, sua esperança cresce, mas o desafio também. Você se depara com uma grande porta pedindo uma senha. Você lembra que no cilíndro tem um código.</p>
+            <button class="btn-proximo" data-proximo="9">Usar o código no cilíndro</button>
+            <button class="btn-proximo" data-proximo="10">Usar o número que indicou o caminho</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta ao caminho indicado, você finalmente encontra um grande corredor. Agora siga a luz!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir a luz</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O código no cilíndro foi aprovado e abriu a porta, você encontrou a saída.
+                </p>
+            <button class="btn-proximo" data-proximo="11">Sair e correr</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O número do caminho indicado foi recusado. Senha incorreta.
+                </p>
+            <button class="btn-proximo" data-proximo="12">Tentar a outra senha.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/deserto.webp" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Ao passar pela porta, você pensa estar livre, finalmente. Mas, o desafio apenas começou...
+                </p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo a senha correta,você consegue abrir a porta.
+                </p>
+            <button class="btn-proximo" data-proximo="11">sair e correr</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
